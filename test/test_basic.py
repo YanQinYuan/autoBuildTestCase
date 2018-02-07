@@ -1,5 +1,8 @@
 import unittest
-from buildCase import varcharBuild
+import sys
+sys.path.append('../')
+from ..autoBuildCase import buildCase
+
 
 class TestAutoBuild(unittest.TestCase):
     def test_varcharBuild():

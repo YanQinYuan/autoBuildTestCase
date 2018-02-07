@@ -1,1 +1,2 @@
-from . import autoBuildCase
+from .autoBuildCase import buildCase
+from .autoBuildCase import writeToFile
